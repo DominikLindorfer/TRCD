@@ -1,0 +1,16 @@
+3PL9.pdb						!name of the pdbfile 
+0								!create the NBND file "nb_nd.dat" (1)yes (0) no
+4.58 3.6 7.27 6.67 0.1 0.1 7.14 6.46 8.12 7.97 5.35 3.21 7.55 9.021 5.113 3.643 7.11 7.03 5.782 3.024 4.12 2.56 	!QyA QyB ByA ByB QxA QxB BxA BxB Lut Lut01 Lut02 Lut03 Vio Vio01 Vio02 Vio03 Neo Neo01 Neo02 Neo03 claN chlN- Transitiondipolestrengths
+300.0							!Temperature
+5e-10							!Rc for Correlations of Protein Vibrations
+1500.0							!FWHM for Static disorder --- 500
+50000							!#of Static disorder Loops --- nrand 2000
+30								!Vrc minimal Coupling strength to form Exciton-Domains
+0.0047							!Width tauP [cm^-1] of the Pump-Pulse (0.0094cm^-1 / (2 Pi 3 10^10* 10^-15) = 50fs)
+630								!Pump-Pulse Excitation-Wavelength [nm]
+100								!Delay-Time [fs] between Pump and Probe Pulse
+2 8 0.65 29 0.5					!Huang-Rhys Factors
+9 255 31 90 33 90	!Inhomogeneous Broadenings
+1e-8							!Cutoff for Kinetic-Matrix Rates
+4000							!CLA-Flu.-Time
+6000							!CLA-Flu.-Time
